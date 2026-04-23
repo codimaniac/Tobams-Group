@@ -1,4 +1,5 @@
 import ConsultantTrainingSection from "@/components/ConsultantTrainingSection"
+import CTA from "@/components/CTA"
 import Hero from "@/components/Hero"
 import LMSSection from "@/components/LMSSection"
 import ManagementSection from "@/components/ManagementSection"
@@ -15,6 +16,7 @@ const Home = () => {
       <ManagementSection />
       <TransformationHubSection />
       <ConsultantTrainingSection />
+      <CTA />
     </>
   )
 }
