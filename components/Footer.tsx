@@ -7,6 +7,7 @@ import InstagramIcon from "@/assets/icons/Instagram.svg"
 import MailIcon from '@/assets/icons/Mail.svg';
 import PhoneIcon from '@/assets/icons/Phone.svg';
 import ContactInfo from "./ContactInfo"
+import SocialLinks from "./SocialLinks"
 
 const Footer = () => {
   return (
@@ -26,9 +27,9 @@ const Footer = () => {
                 <Image src={Logo} alt="Company's Logo" />
                 <p className="leading-[150%]">Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.</p>
                 <div className="flex gap-5">
-                  <div className="flex items-center justify-center bg-purple-10 rounded-full w-10 h-10"><Image src={LinkedInIcon} alt="LinkedIn Icon" className="w-5 h-auto" /></div>
-                  <div className="flex items-center justify-center bg-purple-10 rounded-full w-10 h-10"><Image src={TwitterIcon} alt="Twitter Icon" className="w-5 h-auto" /></div>
-                  <div className="flex items-center justify-center bg-purple-10 rounded-full w-10 h-10"><Image src={InstagramIcon} alt="Instagram Icon" className="w-5 h-auto" /></div>
+                  <SocialLinks icon={LinkedInIcon}/>
+                  <SocialLinks icon={InstagramIcon}/>
+                  <SocialLinks icon={TwitterIcon}/>
                 </div>
               </div>
               <div className="flex flex-col gap-3 max-w-75">
