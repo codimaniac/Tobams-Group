@@ -1,6 +1,10 @@
+import SectionLayout from "@/components/SectionLayout"
+
 const Home = () => {
   return (
-    <div className="h-dvh">Home</div>
+    <>
+      <SectionLayout>Home</SectionLayout>
+    </>
   )
 }
 
