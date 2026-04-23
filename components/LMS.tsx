@@ -4,7 +4,7 @@ import Arrow45 from "@/assets/icons/Arrow45Deg.svg"
 import LMCImage from "@/assets/images/LMCImage.jpg"
 import Button from "./Button"
 
-const LMSSection = () => {
+const LMS = () => {
   return (
     <div className="bg-background py-10">
         <SectionLayout className="flex items-center gap-20 bg-[#571244]/10 py-12">
@@ -34,4 +34,4 @@ const LMSSection = () => {
   )
 }
 
-export default LMSSection
+export default LMS

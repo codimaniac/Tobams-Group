@@ -3,7 +3,7 @@ import Button from "./Button"
 import SectionLayout from "./SectionLayout"
 import Arrow45 from "@/assets/icons/Arrow45Deg.svg"
 
-const ConsultantTrainingSection = () => {
+const ConsultantTraining = () => {
   return (
     <div className="bg-background py-10">
         <SectionLayout className="flex items-center gap-20 bg-[#571244]/10 py-12">
@@ -38,4 +38,4 @@ const ConsultantTrainingSection = () => {
   )
 }
 
-export default ConsultantTrainingSection
+export default ConsultantTraining

@@ -45,7 +45,7 @@ const TrainingProgrammes = [
     }
 ]
 
-const TrainingSection = () => {
+const Training = () => {
   return (
     <SectionLayout className="flex flex-col gap-30 py-26">
         {
@@ -60,4 +60,4 @@ const TrainingSection = () => {
   )
 }
 
-export default TrainingSection
+export default Training

@@ -1,14 +1,14 @@
 import Image from "next/image"
 import SectionLayout from "./SectionLayout"
-import Management from "@/assets/images/Management.jpg"
+import ManagementImage from "@/assets/images/Management.jpg"
 import Lightning from "@/assets/icons/Lightning.svg"
 
-const ManagementSection = () => {
+const Management = () => {
   return (
     <SectionLayout className="bg-background py-16 text-white">
         <div className="flex gap-12 bg-purple-80 p-10 rounded-[20px]">
             <div className="relative flex-1 aspect-square overflow-hidden rounded-lg rounded-br-none">
-                <Image src={Management} alt="A seasoned professional coaching a trainee" fill className="object-cover" />
+                <Image src={ManagementImage} alt="A seasoned professional coaching a trainee" fill className="object-cover" />
             </div> 
             <div className="flex flex-col flex-1 gap-5">
                 <h2 className="font-nunito font-semibold text-[40px]">Management Development Program</h2>
@@ -28,4 +28,4 @@ const ManagementSection = () => {
   )
 }
 
-export default ManagementSection
+export default Management

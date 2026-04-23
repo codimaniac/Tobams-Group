@@ -1,22 +1,24 @@
-import ConsultantTrainingSection from "@/components/ConsultantTrainingSection"
+import ConsultantTraining from "@/components/ConsultantTraining"
 import CTA from "@/components/CTA"
 import Hero from "@/components/Hero"
-import LMSSection from "@/components/LMSSection"
-import ManagementSection from "@/components/ManagementSection"
-import TrainingSection from "@/components/TrainingSection"
-import TransformationHubSection from "@/components/TransformationHubSection"
+import LMS from "@/components/LMS"
+import Management from "@/components/Management"
+import Testimonial from "@/components/Testimonial"
+import Training from "@/components/Training"
+import TransformationHub from "@/components/TransformationHub"
 
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <LMSSection />
-      <TrainingSection />
-      <ManagementSection />
-      <TransformationHubSection />
-      <ConsultantTrainingSection />
+      <LMS />
+      <Training />
+      <Management />
+      <TransformationHub />
+      <ConsultantTraining />
       <CTA />
+      <Testimonial />
     </>
   )
 }

@@ -7,6 +7,7 @@
   --secondary: #ef4353;
   --main-text: #151515;
   --pending-main: #1671d9;
+  --subdued: #696969;
   --purple-10: #ddd0da;
   --purple-40: #8f6182;
   --purple-80: #2c0922;
@@ -22,6 +23,7 @@
   --color-secondary: var(--secondary);
   --color-main-text: var(--main-text);
   --color-pending-main: var(--pending-main);
+  --color-subdued: var(--subdued);
   --color-purple-10: var(--purple-10);
   --color-purple-40: var(--purple-40);
   --color-purple-80: var(--purple-80);

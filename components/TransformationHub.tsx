@@ -1,11 +1,11 @@
 import Image from "next/image"
 import Button from "./Button"
 import SectionLayout from "./SectionLayout"
-import TransformationHub from "@/assets/images/TransformationHub.jpg"
+import TransformationHubImage from "@/assets/images/TransformationHub.jpg"
 import LightningOutline from "@/assets/icons/LightningOutline.svg"
 import Arrow45 from "@/assets/icons/Arrow45Deg.svg"
 
-const TransformationHubSection = () => {
+const TransformationHub = () => {
   return (
     <SectionLayout className="bg-white py-16">
         <div className="flex flex-col gap-2 bg-[#ef4353]/20 p-10 rounded-2xl">
@@ -14,7 +14,7 @@ const TransformationHubSection = () => {
             <p className="leading-[150%] text-main-text">Transformation Hub with Jite Newton is a flagship webinar series curated by the CEO, Dr. Jite Newton. Designed to elevate career trajectories and leadership capabilities, this exclusive event offers invaluable insights and strategies for personal and professional growth. Whether you&#39;re seeking to advance your career or enhance your leadership skills, the Transformation Hub provides a transformative learning experience to unlock your full potential and drive success in your endeavours.</p>
             <div className="flex gap-8 mt-4">
                 <div className="relative flex-7 h-85 aspect-square overflow-hidden rounded-lg">
-                    <Image src={TransformationHub} alt="A seasoned professional coaching a trainee" fill className="object-cover" />
+                    <Image src={TransformationHubImage} alt="A seasoned professional coaching a trainee" fill className="object-cover" />
                 </div> 
                 <div className="flex flex-col flex-8 gap-6">
                     <ul className="flex flex-wrap gap-6">
@@ -33,4 +33,4 @@ const TransformationHubSection = () => {
   )
 }
 
-export default TransformationHubSection
+export default TransformationHub
