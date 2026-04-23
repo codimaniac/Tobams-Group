@@ -7,6 +7,8 @@
   --secondary: #ef4353;
   --main-text: #151515;
   --purple-10: #ddd0da;
+  --purple-40: #8f6182;
+  --purple-80: #2c0922;
   --purple-90: #1d0617;
   --purple-100: #11040e;
   --white-transparent: #ffffff06;
@@ -19,6 +21,8 @@
   --color-secondary: var(--secondary);
   --color-main-text: var(--main-text);
   --color-purple-10: var(--purple-10);
+  --color-purple-40: var(--purple-40);
+  --color-purple-80: var(--purple-80);
   --color-purple-90: var(--purple-90);
   --color-purple-100: var(--purple-100);
   --color-white-transparent: var(--white-transparent);
