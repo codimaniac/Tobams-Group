@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero"
 import LMSSection from "@/components/LMSSection"
+import TrainingSection from "@/components/TrainingSection"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Hero />
       <LMSSection />
+      <TrainingSection />
     </>
   )
 }

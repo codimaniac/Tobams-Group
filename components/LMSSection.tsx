@@ -6,7 +6,7 @@ import Button from "./Button"
 
 const LMSSection = () => {
   return (
-    <div className="bg-white py-10">
+    <div className="bg-background py-10">
         <SectionLayout className="flex items-center gap-20 bg-[#571244]/10 py-12">
             <div className="relative flex-1 aspect-square overflow-hidden rounded-full">
                 <Image src={LMCImage} alt="Learning Platform" fill className="object-cover" />
