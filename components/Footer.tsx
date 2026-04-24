@@ -12,18 +12,18 @@ import SocialLinks from "./SocialLinks"
 const Footer = () => {
   return (
     <footer className="flex flex-col text-white font-nunito">
-        <div className="flex justify-between items-center px-16 py-10 bg-purple-90">
-            <div className="flex flex-col gap-2.5">
+        <div className="flex flex-col lg:flex-row not-lg:gap-6 justify-between lg:items-center px-6 md:px-16 py-10 bg-purple-90">
+            <div className="flex flex-col gap-4 xl:gap-2.5">
               <span className="font-normal">Ready to be a part of something extraordinary?</span>
-              <h2 className="text-[32px] font-semibold font-nunito">Let’s work together to create a difference</h2>
+              <h2 className=" text-[clamp(20px,3vw,32px)] font-semibold font-nunito">Let’s work together to create a difference</h2>
             </div>
             <Button>
               Get In Touch
             </Button>
         </div>
-        <div className="flex flex-col gap-5 justify-center px-16 pt-13 pb-8 bg-purple-100">
-            <div className="flex flex-wrap justify-between gap-10 w-full max-w-7xl text-[16px]">
-              <div className="flex flex-col gap-3 max-w-80">
+        <div className="flex flex-col gap-5 justify-center  px-6 md:px-16 pt-13 pb-8 bg-purple-100">
+            <div className="flex flex-col xl:flex-row justify-between gap-10 w-full max-w-7xl text-[16px]">
+              <div className="flex flex-col gap-3 xl:max-w-80">
                 <Image src={Logo} alt="Company's Logo" />
                 <p className="leading-[150%]">Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.</p>
                 <div className="flex gap-5">
@@ -73,17 +73,17 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex w-full py-5">
-              <div className="flex bg-white-transparent w-full p-6">
+              <div className="flex flex-col xl:flex-row not-md:flex-col-reverse not-xl:gap-6 bg-white-transparent w-full p-6">
                 <div className="flex flex-col flex-9 gap-2.5">
                   <h3 className="text-xl font-bold">Registered Offices</h3>
-                  <div className="flex gap-6">
+                  <div className="flex not-lg:flex-col gap-6">
                     <div className="flex flex-col flex-1 gap-2.5 pr-6">
                       <h4 className="text-secondary">United Kingdom</h4>
                       <p className="leading-[150%]">
                         07451196 (Registered by Company House) <br /> Vine Cottages, 215 North Street, Romford, Essex, United Kingdom, RM1 4QA
                       </p>
                     </div>
-                    <div className="flex flex-col flex-1 gap-2.5 border-l border-purple-10/12 pl-6">
+                    <div className="flex flex-col flex-1 gap-2.5 lg:border-l border-purple-10/12 lg:pl-6">
                       <h4 className="text-secondary">Nigeria</h4>
                       <p className="leading-[150%]">
                         RC 1048722 (Registered by the Corporate Affairs Commission) 4, Muaz Close, Angwar-Rimi
@@ -92,7 +92,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="flex flex-col flex-3 gap-2.5">
-                  <div className="flex flex-col flex-1 gap-3 border-l border-purple-10/12 pl-6 ">
+                  <div className="flex flex-col flex-1 gap-3 xl:border-l border-purple-10/12 xl:pl-6 ">
                     <h3 className="text-xl font-bold mb-1">Contact Information</h3>
                     <ContactInfo info="theteam@tobamsgroup.com" icon={MailIcon} />                    
                     <ContactInfo info="+447886600748" icon={PhoneIcon} />
@@ -100,9 +100,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between items-center font-light py-7 border-t border-purple-10/12">
-              <p>Copyright ⓒ Tobams Group, 2024. All rights reserved.</p>
-              <div className="flex gap-10 underline">
+            <div className="flex flex-col-reverse not-lg:gap-6 lg:flex-row justify-between items-center font-light py-7 border-t border-purple-10/12">
+              <p className="not-md:text-center">Copyright ⓒ Tobams Group, 2024. All rights reserved.</p>
+              <div className="flex not-lg:w-4/5 not-lg:justify-center not-lg:flex-wrap gap-6 lg:gap-10 underline">
                 <span className="cursor-pointer">Term and Condition</span>
                 <span className="cursor-pointer">Privacy Policy</span>
                 <span className="cursor-pointer">Cookies Policy</span>

@@ -12,8 +12,8 @@ const Hero = () => {
             <div className="bg-white/10 rounded-[100px] w-48.25 px-12 py-3 text-sm font-nunito-sans uppercase">
                 What We Do
             </div>
-            <h1 className="font-nunito text-[56px] font-bold">Training and Development</h1>
-            <p className="text-center font-semibold w-4/5">Our comprehensive range of programs and resources is designed to enhance skills, broaden knowledge, and propel careers forward in today&#39;s ever-evolving landscape.</p>
+            <h1 className="font-nunito text-[clamp(24px,4vw,56px)] font-bold">Training and Development</h1>
+            <p className="text-center text-sm md:text-base font-semibold w-4/5 leading-[150%]">Our comprehensive range of programs and resources is designed to enhance skills, broaden knowledge, and propel careers forward in today&#39;s ever-evolving landscape.</p>
             <Button className="mt-7">Book a Consultation</Button>
         </div>
     </SectionLayout>

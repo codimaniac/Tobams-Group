@@ -11,9 +11,12 @@ interface TrainingCardProps {
 
 const TrainingCard = ({name, description, keypoints, image, reverseRow}: TrainingCardProps) => {
   return (
-    <div className={`flex ${reverseRow ? "flex-row-reverse" : ""} gap-16 items-center`}>
+    <div className={`flex ${reverseRow ? "xl:flex-row-reverse" : ""} flex-col xl:flex-row gap-16 items-center`}>
         <div className="flex flex-col flex-1 gap-5">
-            <h2 className="font-nunito font-semibold text-[40px] text-main-text">{name}</h2>
+            <h2 className="font-nunito font-semibold  text-[clamp(20px,2.8vw,40px)] text-main-text">{name}</h2>
+            <div className="xl:hidden relative not-xl:max-h-[60vw] not-xl:w-full not-xl:min-w-81.75 flex-1 aspect-square overflow-hidden h-86.5 rounded-tl-[56px] rounded-tr-3xl rounded-br-[23px] rounded-bl-xl">
+                <Image src={image} alt="A team undergoing training" fill className="object-cover" />
+            </div>
             <div className="flex flex-col gap-5 text-main-text leading-[150%]">
                 <p>{description}</p>
                 <ul className="flex flex-col gap-1.5">
@@ -27,7 +30,7 @@ const TrainingCard = ({name, description, keypoints, image, reverseRow}: Trainin
                 </ul>
             </div>
         </div>
-        <div className="relative flex-1 aspect-square overflow-hidden h-86.5 rounded-tl-[56px] rounded-tr-3xl rounded-br-[23px] rounded-bl-xl">
+        <div className="not-xl:hidden relative not-xl:w-full not-xl:min-w-81.75 flex-1 aspect-square overflow-hidden h-86.5 rounded-tl-[56px] rounded-tr-3xl rounded-br-[23px] rounded-bl-xl">
             <Image src={image} alt="A team undergoing training" fill className="object-cover" />
         </div>
     </div>

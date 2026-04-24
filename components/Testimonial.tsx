@@ -50,8 +50,8 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <SectionLayout className="flex flex-col py-26 gap-2.5 bg-background">
-        <h2 className="font-nunito font-bold text-center text-[40px] text-main-text leading-[130%]">Testimonials</h2>
+    <SectionLayout className="flex flex-col py-12 md:py-16 gap-2.5 bg-background">
+        <h2 className="font-nunito font-bold text-center  text-[clamp(20px,3vw,40px)] text-main-text leading-[130%]">Testimonials</h2>
         <div className="flex overflow-hidden">
             <div className="flex gap-6">
               {
@@ -64,10 +64,10 @@ const Testimonial = () => {
             </div>
         </div>
         <div className="flex gap-3 items-center self-end mt-7.5">
-          <button className="flex items-center justify-center bg-[#f04354]/10 w-8 h-8 rounded-lg">
+          <button className="flex items-center justify-center bg-[#f04354]/10 w-8 h-8 rounded-lg cursor-pointer">
             <Image src={ChevronLeft} alt="Chevron Left Icon" />
           </button>
-          <button className="flex items-center justify-center bg-[#f04354]/10 w-8 h-8 rounded-lg">
+          <button className="flex items-center justify-center bg-[#f04354]/10 w-8 h-8 rounded-lg cursor-pointer">
             <Image src={ChevronRight} alt="Chevron Left Icon" />
           </button>
         </div>

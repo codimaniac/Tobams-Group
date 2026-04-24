@@ -8,7 +8,7 @@ interface SectionLayoutProps {
 
 const SectionLayout = ({ children, style, className }: SectionLayoutProps) => {
   return (
-    <section style={style} className={`w-full px-16 ${className}`}>
+    <section style={style} className={`w-full px-16 not-md:px-6 ${className}`}>
         { children }
     </section>
   )
