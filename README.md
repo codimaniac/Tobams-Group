@@ -15,6 +15,10 @@ Visit the live website at: [https://tobams-group-phi.vercel.app/](https://tobams
 - **Testimonials**: Client feedback and success stories
 - **Responsive Design**: Optimized for all devices
 
+## Design Resources
+
+- **Figma Design**: [View the design file](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=1-874&t=vnjgVCNIg2DwWcUH-0)
+
 ## Tech Stack
 
 - **Framework**: Next.js 14 with App Router
@@ -117,3 +121,7 @@ npm start
 ## License
 
 This project is private and proprietary to Tobams Group.
+
+---
+
+*Note: This README.md was cleaned up and improved using an AI tool for better clarity and structure.*
