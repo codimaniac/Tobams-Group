@@ -16,6 +16,7 @@ const TrainingProgrammes = [
             "Customised Training",
         ],
         image: CorporateTrainings,
+        alt: "Corporate training session with professionals",
     },
     {
         name: "Personalised Individual Training",
@@ -29,6 +30,7 @@ const TrainingProgrammes = [
             "Career Development",
         ],
         image: IndividualTrainings,
+        alt: "Individual training program participant",
     },
     {
         name: "Capacity Development",
@@ -42,6 +44,7 @@ const TrainingProgrammes = [
             "Ongoing Support and Resources",
         ],
         image: CapacityDevelopment,
+        alt: "Capacity development workshop",
     }
 ]
 
@@ -52,7 +55,7 @@ const Training = () => {
             TrainingProgrammes.map((programme, index) => {
                 const reverse = index % 2 !== 0 ? true : false
                 return (
-                    <TrainingCard key={index} name={programme.name} description={programme.description} keypoints={programme.keypoints} image={programme.image} reverseRow={reverse} />
+                    <TrainingCard key={index} name={programme.name} description={programme.description} keypoints={programme.keypoints} image={programme.image} reverseRow={reverse} alt={programme.alt} />
                 )
             })
         }

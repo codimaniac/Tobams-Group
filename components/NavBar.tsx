@@ -15,12 +15,12 @@ const NavBar = () => {
   return (
     <nav className="flex flex-col bg-white">
         <div className="flex items-center justify-between px-6 md:px-16 py-7 border-b border-purple-10">
-            <Image src={Logo} alt="Company's Logo" className="h-16 w-auto" />
+            <Image src={Logo} alt="Tobams Group logo" className="h-16 w-auto" />
             <div className="flex items-center justify-center gap-6 text-white">
-                <Button className="bg-transparent p-0! xl:hidden" onClick={() => setIsNavOpen(!isNavOpen)}><Image src={Menu} alt="Menu Icon" /></Button>
+                <Button className="bg-transparent p-0! xl:hidden" onClick={() => setIsNavOpen(!isNavOpen)}><Image src={Menu} alt="Navigation menu icon" /></Button>
                 <Button className="not-xl:hidden">
                     <div className="flex items-center justify-center bg-purple-10 rounded-full w-8 h-8"><Image src={Account} alt="Sign Up / Sign In" className="w-3 h-auto" /></div>
-                    <div className="flex items-center justify-center gap-2"><span>Account</span><Image src={ChevronAlt} alt="Chevron Down Icon"/></div>
+                    <div className="flex items-center justify-center gap-2"><span>Account</span><Image src={ChevronAlt} alt="Dropdown arrow icon"/></div>
                 </Button>
                 <Button className="bg-secondary! not-xl:hidden">Take Assessment</Button>
             </div>

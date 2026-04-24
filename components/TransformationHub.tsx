@@ -18,14 +18,14 @@ const TransformationHub = () => {
                 </div> 
                 <div className="flex flex-col flex-8 gap-6 bg-white/30 p-5 md:py-8 md:px-5">
                     <ul className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Ligthning Icon" />Strategic Career Guidance</li>
-                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Ligthning Icon" />Leadership Development</li>
-                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Ligthning Icon" />CV Development</li>
-                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Ligthning Icon" />Sustainability Leadership</li>
-                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Ligthning Icon" />Communication Skills</li>
-                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Ligthning Icon" />Business Model</li>
+                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Lightning icon" />Strategic Career Guidance</li>
+                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Lightning icon" />Leadership Development</li>
+                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Lightning icon" />CV Development</li>
+                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Lightning icon" />Sustainability Leadership</li>
+                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Lightning icon" />Communication Skills</li>
+                        <li className="flex items-center gap-3.75 bg-white rounded-xl p-4 max-h-72"><Image src={LightningOutline} alt="Lightning icon" />Business Model</li>
                     </ul>
-                    <Button className="w-fit text-white font-semibold">Learn More <Image src={Arrow45} alt="Arrow 45°" /></Button>
+                    <Button className="w-fit text-white font-semibold">Learn More <Image src={Arrow45} alt="Right arrow icon" /></Button>
                 </div>
             </div>
         </div>

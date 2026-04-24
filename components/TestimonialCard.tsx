@@ -5,14 +5,15 @@ interface TestimonialCardProps {
   position: string;
   image: StaticImageData;
   comment: string;
+  alt: string;
 }
 
-const TestimonialCard = ({name, position, image, comment}: TestimonialCardProps) => {
+const TestimonialCard = ({name, position, image, comment, alt}: TestimonialCardProps) => {
   return (
     <div className="flex flex-col gap-6 px-6 py-5 rounded-2xl border-l-2 border-secondary bg-white w-105.5 h-61">
       <div className="flex gap-2">
         <div className="relative w-11 aspect-square overflow-hidden rounded-full">
-            <Image src={image} alt="Learning Platform" fill className="object-cover w-11 h-11" />
+            <Image src={image} alt={alt} fill className="object-cover w-11 h-11" />
         </div>
         <div className="flex flex-col">
           <span className="font-semibold text-main-text">{name}</span>

@@ -9,12 +9,12 @@ const LMS = () => {
     <div className="bg-background py-10">
         <SectionLayout className="flex flex-col xl:flex-row items-center gap-20 bg-[#571244]/10 py-12">
             <div className="relative not-xl:hidden not-xl:w-full not-xl:min-w-81.75 flex-1 aspect-square overflow-hidden rounded-full">
-                <Image src={LMCImage} alt="Learning Platform" fill className="object-cover" />
+                <Image src={LMCImage} alt="TG Academy learning management system interface" fill className="object-cover" />
             </div>
             <div className="flex flex-col flex-1 gap-8">
                 <h2 className="font-nunito font-semibold text-[clamp(20px,3vw,40px)] text-primary tracking-[3%]">Learning Management System</h2>
                 <div className="relative xl:hidden not-xl:w-full not-xl:min-w-81.75 flex-1 aspect-square overflow-hidden rounded-full">
-                    <Image src={LMCImage} alt="Learning Platform" fill className="object-cover" />
+                    <Image src={LMCImage} alt="TG Academy learning management system interface" fill className="object-cover" />
                 </div>
                 <div className="flex flex-col gap-5 text-main-text leading-[150%] bg-[#571244]/10 p-6 rounded-lg">
                     <p>TG Academy is a hub of knowledge and skill-building resources designed to empower tech talents on their learning journey. From technical courses covering the latest programming languages and development frameworks to soft skills training in leadership, effective communication and project management, TG Academy offers a wide range of courses to cater to diverse learning needs. With accessible and interactive learning materials, individuals can enhance their skills and stay ahead in today&#39;s competitive tech landscape.</p>
@@ -30,7 +30,7 @@ const LMS = () => {
                         </ul>
                     </div>
                 </div>
-                <Button className="w-fit text-white font-semibold">Learn More <Image src={Arrow45} alt="Arrow 45°" /></Button>
+                <Button className="w-fit text-white font-semibold">Learn More <Image src={Arrow45} alt="Right arrow icon" /></Button>
             </div>
         </SectionLayout>
     </div>

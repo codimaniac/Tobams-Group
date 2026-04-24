@@ -18,7 +18,7 @@ const NavMenuItem = ({children, href, hideDropDown = false, className}: NavMenuI
   return (
     <div className={`flex items-center gap-1 text-main-text pb-0.5 ${isActive ? "xl:border-b" : ""} border-primary ${className}`}>
         <Link href={href}>{children}</Link>
-        {!hideDropDown && <Image src={Chevron} alt="Cheron Down Icon" />}
+        {!hideDropDown && <Image src={Chevron} alt="Chevron down icon" />}
     </div>
   )
 }

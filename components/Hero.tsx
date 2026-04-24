@@ -6,7 +6,7 @@ import HeroImage from "@/assets/images/HeroImage.jpg"
 const Hero = () => {
   return (
     <SectionLayout className="relative overflow-hidden flex flex-col items-center gap-3 py-28 px-16 text-white">
-        <Image src={HeroImage} alt="Hero Image" fill priority className="object-cover" />
+        <Image src={HeroImage} alt="Professionals engaged in training and development activities" fill priority className="object-cover" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="flex flex-col items-center gap-3 z-10">
             <div className="bg-white/10 rounded-[100px] w-48.25 px-12 py-3 text-sm font-nunito-sans uppercase">

@@ -24,12 +24,12 @@ const Footer = () => {
         <div className="flex flex-col gap-5 justify-center  px-6 md:px-16 pt-13 pb-8 bg-purple-100">
             <div className="flex flex-col xl:flex-row justify-between gap-10 w-full max-w-7xl text-[16px]">
               <div className="flex flex-col gap-3 xl:max-w-80">
-                <Image src={Logo} alt="Company's Logo" />
+                <Image src={Logo} alt="Tobams Group logo" />
                 <p className="leading-[150%]">Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.</p>
                 <div className="flex gap-5">
-                  <SocialLinks icon={LinkedInIcon}/>
-                  <SocialLinks icon={InstagramIcon}/>
-                  <SocialLinks icon={TwitterIcon}/>
+                  <SocialLinks icon={LinkedInIcon} alt="Tobams Group LinkedIn page"/>
+                  <SocialLinks icon={InstagramIcon} alt="Tobams Group Instagram page"/>
+                  <SocialLinks icon={TwitterIcon} alt="Tobams Group Twitter page"/>
                 </div>
               </div>
               <div className="flex flex-col gap-3 max-w-75">
@@ -94,8 +94,8 @@ const Footer = () => {
                 <div className="flex flex-col flex-3 gap-2.5">
                   <div className="flex flex-col flex-1 gap-3 xl:border-l border-purple-10/12 xl:pl-6 ">
                     <h3 className="text-xl font-bold mb-1">Contact Information</h3>
-                    <ContactInfo info="theteam@tobamsgroup.com" icon={MailIcon} />                    
-                    <ContactInfo info="+447886600748" icon={PhoneIcon} />
+                    <ContactInfo info="theteam@tobamsgroup.com" icon={MailIcon} alt="Email icon" />                    
+                    <ContactInfo info="+447886600748" icon={PhoneIcon} alt="Phone icon" />
                   </div>
                 </div>
               </div>

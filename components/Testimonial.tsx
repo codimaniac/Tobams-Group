@@ -15,36 +15,42 @@ const testimonials = [
     position: "Founder, CraftHub NG",
     image: Image1,
     comment: "Working with Tobams Group on our website was a breeze. They understood our vision and transformed it into a beautiful online space. Highly recommend their Website Design service!",
+    alt: "Profile picture of Aisha Yusuf",
   },
   {
     name: "John Davies",
     position: "Marketing Manager, E-Commerce Emporium",
     image: Image2,
     comment: "Tobams Group's Digital Marketing strategies gave our brand the boost it needed. Simple yet powerful techniques that delivered tangible results. A pleasure to collaborate with!",
+    alt: "Profile picture of John Davies",
   },
   {
     name: "Chinonso Nwankwo",
     position: "HR Director, FutureTech Solutions",
     image: Image3,
     comment: "Tobams Group has been instrumental in our talent acquisition journey. Their Tech Talent Solution service consistently connects us with the right professionals. Reliable and straightforward.",
+    alt: "Profile picture of Chinonso Nwankwo",
   },
   {
     name: "Rita Ahmed",
     position: "Creative Director, ArtInnovate Studios",
     image: Image4,
     comment: "The Creative and Digital Media services at Tobams Group brought our ideas to life. Simple, creative, and impactful – exactly what we needed for our projects.",
+    alt: "Profile picture of Rita Ahmed",
   },
   {
     name: "David Johnson",
     position: "Small Business Owner",
     image: Image2,
     comment: "Tobams Group's Digital Marketing tips transformed my small business. Their guidance is simple, effective, and perfect for anyone looking to grow online.",
+    alt: "Profile picture of David Johnson",
   },
   {
     name: "Femi Adekunle",
     position: "IT Professional",
     image: Image1,
     comment: "As an IT professional, Tobams Group's Tech Talent Development program sharpened my skills. The hands-on approach and mentorship are invaluable",
+    alt: "Profile picture of Femi Adekunle",
   },
 ]
 
@@ -57,7 +63,7 @@ const Testimonial = () => {
               {
                 testimonials.map((testimonial, index) => {
                   return (
-                    <TestimonialCard key={index} name={testimonial.name} position={testimonial.position} image={testimonial.image} comment={testimonial.comment} />
+                    <TestimonialCard key={index} name={testimonial.name} position={testimonial.position} image={testimonial.image} comment={testimonial.comment} alt={testimonial.alt} />
                   )
                 })
               }
@@ -68,7 +74,7 @@ const Testimonial = () => {
             <Image src={ChevronLeft} alt="Chevron Left Icon" />
           </button>
           <button className="flex items-center justify-center bg-[#f04354]/10 w-8 h-8 rounded-lg cursor-pointer">
-            <Image src={ChevronRight} alt="Chevron Left Icon" />
+            <Image src={ChevronRight} alt="Chevron right icon" />
           </button>
         </div>
     </SectionLayout>

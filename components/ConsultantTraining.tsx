@@ -31,7 +31,7 @@ const ConsultantTraining = () => {
                         <p>You will attain a globally recognized certification, opening doors to new career opportunities and industry recognition.</p>
                     </div>
                 </div>
-                <Button className="w-fit text-white font-semibold">Learn More <Image src={Arrow45} alt="Arrow 45°" /></Button>
+                <Button className="w-fit text-white font-semibold">Learn More <Image src={Arrow45} alt="Right arrow icon" /></Button>
             </div>
         </SectionLayout>
     </div>
