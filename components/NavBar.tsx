@@ -25,8 +25,14 @@ const NavBar = () => {
                 <Button className="bg-secondary! not-xl:hidden">Take Assessment</Button>
             </div>
         </div>
-        <NavMenu className="not-xl:hidden" />
-        <NavMenu className="xl:hidden" isNavOpen={isNavOpen}/>
+        {/* Large Screen Nav Menu */}
+        <div className={`hidden xl:flex xl:justify-center px-6 md:px-16 py-5`}>
+            <NavMenu />
+        </div>
+        {/* Mobile and Medium Screen Nav Menu */}
+        <div className={`xl:hidden xl:justify-center px-6 md:px-16 py-5 ${isNavOpen ? "flex" : "hidden"}`}>
+            <NavMenu />
+        </div>
     </nav>
   )
 }
