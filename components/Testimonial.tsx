@@ -7,7 +7,6 @@ import Image4 from "@/assets/images/Image (4).png"
 import ChevronLeft from "@/assets/icons/ChevronLeft.svg"
 import ChevronRight from "@/assets/icons/ChevronRight.svg"
 import Image from "next/image"
-import Button from "./Button"
 
 const testimonials = [
   {
