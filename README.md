@@ -98,6 +98,7 @@ npm start
 
 ### Technical Assumptions
 
+- **Scrollbar Hiding**: Used vanilla CSS for hiding scrollbars since Tailwind CSS doesn't provide built-in utilities for this
 - **Next.js Image Optimization**: Assumed all images are properly optimized and stored in `/assets` or `/public`
 - **TypeScript**: Strict typing for better code quality and developer experience
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development

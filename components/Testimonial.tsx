@@ -1,3 +1,5 @@
+"use client"
+
 import SectionLayout from "./SectionLayout"
 import TestimonialCard from "./TestimonialCard"
 import Image1 from "@/assets/images/Image (1).png"
@@ -54,10 +56,11 @@ const testimonials = [
 ]
 
 const Testimonial = () => {
+
   return (
     <SectionLayout className="flex flex-col py-12 md:py-16 gap-2.5 bg-background">
         <h2 className="font-nunito font-bold text-center  text-[clamp(20px,3vw,40px)] text-main-text leading-[130%]">Testimonials</h2>
-        <div className="flex overflow-hidden">
+        <div className="flex overflow-x-auto scroll-smooth hide-scrollbar">
             <div className="flex gap-6">
               {
                 testimonials.map((testimonial, index) => {
